@@ -27,11 +27,13 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
           <span>Ankit Kumar Mohanta</span>
           <span>
-            Frontend Developer with a year of experience in web designing
-            and development, producting the Quality work
+          Software Engineer with 1 year  expertise in Full Stack Development, 
+          including ASP.NET core , Angular, React, Express.js, Node.js, .NET Core, and SQL Server. 
+          Strong understanding of CI/CD pipelines, Azure DevOps, and SonarQube. 
+        
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -64,7 +66,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="ASP .NET" text2="+ Angular" />
         </motion.div>
 
         {/* animation */}
@@ -75,7 +77,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Frontend" text2="Developer" />
+          <FloatinDiv img={thumbup} text1="Fullstack" text2="Developer" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
