@@ -6,6 +6,7 @@ import "swiper/css";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
 import profilePic1 from "../../img/profile1.jpg";
+import profilePic2 from "../../img/profile2.jpg";
 
 
 const Testimonial = () => {
@@ -13,8 +14,13 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Have a year of Experience as Software Engineer in Cybage Softwares,where I have Developed and maintained web applications using ASP.NET.  Developed responsive web applications using Angular, resulting in improved user experience and a 25% increase in user engagement metrics."
-    }
+        "Contributed as Software Engineer in Cybage Softwares,where I have Developed and maintained web applications using ASP.NET.  Developed responsive web applications using Angular, resulting in improved user experience and a 25% increase in user engagement metrics."
+    },
+    {
+      img: profilePic2,
+      review:
+        "As a Software Engineer Designed and developed Database,Created and cofigured API's,Resolved client's Issues and queries,Implemented features including audit trails and logs for application tracing, generating log reports"
+    },
     
   ];
 

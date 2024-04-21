@@ -30,7 +30,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
           <span>Ankit Kumar Mohanta</span>
           <span>
-          Software Engineer with 1 year  expertise in Full Stack Development, 
+          Software Engineer with over a year of  expertise in Full Stack Development, 
           including ASP.NET core , Angular, React, Express.js, Node.js, .NET Core, and SQL Server. 
           Strong understanding of CI/CD pipelines, Azure DevOps, and SonarQube. 
         

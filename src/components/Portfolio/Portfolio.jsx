@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
+      <span style={{color: darkMode?'white': ''}}>Currrently Working on</span>
       <span style={{color: darkMode?'white': ''}}>Click for Live Demo</span>
 
       {/* slider */}
